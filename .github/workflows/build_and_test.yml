@@ -7,7 +7,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        rosdistro: [rolling]
+        rosdistro: [galactic]
         os: [ubuntu-20.04]
         java_version: [6, default]
         include:
